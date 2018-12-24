@@ -1,0 +1,23 @@
+#main-page{
+  padding-top: 50px;
+
+}
+
+#heading {
+  color: white;
+}
+
+#profile-photo{
+  height: 200px;
+}
+
+#right {
+  width: 60%;
+  height: 200px;
+  background-color: red;
+}
+
+.column {
+  padding-left: 20px;
+  float: left;
+}
