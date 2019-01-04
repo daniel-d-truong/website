@@ -3,35 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <title> Daniel Truong </title>
-    <style>
-      #card{
-        position: relative;
-      }
-    </style>
     <base href="/" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   </head>
 
   <body>
+
     <div class = "ui fixed inverted menu">
-      <div class = "ui container">
-        <a href="#" class="item">Home</a>
-      </div>
+        <a href="#" class="active item">
+          Home
+        </a>
     </div>
 
     <div id="main-page">
-
-      <div class="column" id="left">
-          <img id="profile-photo" src="images/daniel.jpg" />
+      <div id="bg-image">
+        <div id="bg-text">
+          <h1 id="hi"> Hey, I'm Daniel Truong. Pleasure to meet you.</h1>
+        </div>
       </div>
+    </div>
 
-      <div class="column" id="right">
-        <h1 id="hi"> Hi, I'm Daniel </h1>
+    <div class="section" id="about">
+      <div>
+        <div class="ui huge header">
+          I am a Software Developer <span> attending the University of California, San Diego.</span>
+        </div>
       </div>
 
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+
   </body>
 </html>
